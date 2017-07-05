@@ -19,7 +19,7 @@ class TestMinMax(unittest.TestCase):
     def test_same_value(self):
         """test return for same value"""
         minmax = find_min_max([4,4,4,4])
-        self.assertEqual([1,4],minmax)
+        self.assertEqual([4],minmax)
 
 
 
