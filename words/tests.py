@@ -80,3 +80,4 @@ class Test(unittest.TestCase):
             words('hello  world'),
             msg='should count multiple spaces as one'
         )
+unittest.main()
