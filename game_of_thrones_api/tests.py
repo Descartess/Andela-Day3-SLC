@@ -26,7 +26,7 @@ class GameofThronesTest(unittest.TestCase):
         with patch.object(requests, 'get') as get_mock:
             get_mock.return_value = mock_response = Mock()
             mock_response.status_code = 200
-            self.assertEqual(get_house('1'), 200)
+            self.assertEqual(get_book('1'), 200)
             
 if __name__ == "__main__":
     unittest.main()
